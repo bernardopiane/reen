@@ -1,0 +1,126 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+#topbar {
+  background-color: #f5f7fa;
+}
+
+#topbar a {
+  text-decoration: none;
+  color: #506a85;
+}
+
+#topbar .left i {
+  padding-right: 0.5em;
+}
+
+.menus a {
+  font-weight: bold;
+  color: #506a85;
+}
+
+.text-primary-color {
+  color: #506a85;
+}
+
+.text-sub-color {
+  color: #73879c;
+}
+
+#hero {
+  background-image: url("./img/item1.png");
+  background-size: cover;
+  min-height: 800px;
+}
+
+.sub-text {
+  color: #a3b1bf;
+  font-size: 1.4em;
+}
+
+.btn {
+  background-color: #00bc9c;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#about-us .sub-text {
+  color: #73879c;
+}
+
+#about-us .text .sub-text {
+  font-size: 1.2em;
+}
+
+#about-us .item i {
+  transition: color 225ms ease;
+}
+
+#about-us .item:hover i {
+  color: #00bc9c;
+}
+
+#about-us i {
+  padding-right: 0.5em;
+  font-size: 3em;
+  min-width: 80px;
+  text-align: center;
+}
+
+#work {
+  background-color: #f2f5f7;
+}
+
+#card-area .cards .feature {
+  background-color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.owl-carousel .cards {
+  margin: 1em;
+}
+
+/* .overlay-area .overlay{
+  display: none;
+}
+
+.overlay-area:hover .overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+} */
+
+footer {
+  color: #707e8c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #283645;
+}
+
+footer a{
+  color: #707e8c;
+}
+
+footer a:hover{
+  color: #97a6b4;
+  text-decoration: none;
+}
