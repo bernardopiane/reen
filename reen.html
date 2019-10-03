@@ -136,7 +136,7 @@
         </div>
 
         <div class="row" id="card-area">
-          <div class="col-6 cards">
+          <div class="col-12 col-md-6 cards">
             <div class="feature">
               <div class="overlay-area">
                 <!-- <div class="overlay"><b>+</b></div> -->
@@ -146,7 +146,7 @@
               <p class="pb-4">Identity</p>
             </div>
           </div>
-          <div class="col-6 cards">
+          <div class="col-12 col-md-6 cards">
             <div class="feature">
               <img src="./img/image2.png" alt="" class="img-fluid" />
               <h5 class="pt-4">Fresh branding for creative startup</h5>
@@ -227,7 +227,15 @@
         $(".owl-carousel").owlCarousel({
           loop: true,
           items: 4,
-          dots: true
+          dots: true,
+          responsive: {
+            0: {
+              items: 2
+            },
+            768: {
+              items: 4
+            }
+          }
         });
       });
     </script>
